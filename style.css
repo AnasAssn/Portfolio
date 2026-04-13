@@ -922,18 +922,6 @@ footer {
 .highlight-box p { font-size: 0.9rem; color: var(--text-muted); margin: 0; line-height: 1.7; }
 .highlight-box strong { color: var(--accent); }
 
-/* Tooltip cursor effect */
-.cursor-dot {
-  width: 8px; height: 8px;
-  background: var(--accent);
-  border-radius: 50%;
-  position: fixed;
-  top: 0; left: 0;
-  pointer-events: none;
-  z-index: 9998;
-  transition: transform 0.1s ease;
-  mix-blend-mode: normal;
-}
 
 /* Active nav page */
 [data-page] .nav-links a[data-target] { color: var(--text-muted); }
